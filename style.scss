@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#search,#search_bar{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.container{
+    border: 2px solid;
+    width: 350px;
+    height: 60%;
+    max-height: auto;
+}
+.card{
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-height: auto;
+}
+#health{
+    align-self: flex-end;
+    justify-self: flex-start;
+}
+#image{
+    min-height: 150px;
+    max-height: 150px;
+    border: none;
+}
+#pokeName{
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        li{
+            list-style: none;
+        }
+    }
+}
+#btn{
+    padding: 10px 15px;
+    background-color: rgb(15, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 0.6s ease;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(247, 57, 57);
+    }
+}

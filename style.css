@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#search, #search_bar {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.container {
+  border: 2px solid;
+  width: 350px;
+  height: 60%;
+  max-height: auto;
+}
+
+.card {
+  padding: 30px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  max-height: auto;
+}
+
+#health {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  justify-self: flex-start;
+}
+
+#image {
+  min-height: 150px;
+  max-height: 150px;
+  border: none;
+}
+
+#pokeName {
+  text-transform: capitalize;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#stats ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#stats ul li {
+  list-style: none;
+}
+
+#btn {
+  padding: 10px 15px;
+  background-color: #0f0000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+#btn:hover {
+  cursor: pointer;
+  background-color: #f73939;
+}
+/*# sourceMappingURL=style.css.map */
